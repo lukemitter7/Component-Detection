@@ -6,7 +6,7 @@ This project focuses on component detection using YOLOv8 as the original trainin
 
 ## Training Process
 
-The YOLOv8 model was trained using a dataset of component images. The training process involved optimizing the model's parameters to improve its ability to detect components accurately. Five different training sessions were conducted, each varying in the number of epochs:
+The  model was trained using a dataset of component images. The training process involved optimizing the model's parameters to improve its ability to detect components accurately. Five different training sessions were conducted, each varying in the number of epochs:
 
 - **1 Epoch**: The model was trained for a single epoch to establish a baseline performance.
 - **5 Epochs**: The model underwent training for five epochs to observe incremental improvements.
@@ -26,13 +26,9 @@ The folder is organized into subdirectories, each corresponding to a specific te
 
 Before using the model, ensure your system meets the following prerequisites:
 
-1. **Python 3**: YOLOv8 requires Python 3 to run. Ensure you have Python 3 installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+1. **Python 3**: The model requires Python 3 to run. Ensure you have Python 3 installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 
-2. **CUDA Toolkit (Optional)**: If you plan to run YOLOv8 with GPU acceleration, you'll need to install the CUDA Toolkit. YOLOv8 is optimized to leverage NVIDIA GPUs for faster inference. Visit the [NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) page to download and install the appropriate version for your GPU.
-
-3. **cuDNN (Optional)**: For GPU acceleration, you'll also need cuDNN installed. cuDNN is a GPU-accelerated library for deep neural networks. Download and install cuDNN from the [NVIDIA cuDNN](https://developer.nvidia.com/cudnn) page.
-
-4. **Python Dependencies**: YOLOv8 relies on several Python libraries. You can install these dependencies using pip, the Python package manager. Run the following command to install the required packages:
+4. **Python Dependencies**: The model relies on several Python libraries. You can install these dependencies using pip, the Python package manager. Run the following command to install the required packages:
 
 ```
 pip install -r requirements.txt

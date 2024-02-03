@@ -67,10 +67,11 @@ To view the precision confidence curves for a specific test batch:
 1. Navigate to the corresponding subdirectory in this repository.
 2. Open the images using your preferred image viewer.
 
-![alt text]([http://url/to/img.png](https://github.com/lukemitter7/Component-Detection/blob/main/Main/Charts/P%20curves/V2.png?raw=true))
 ## Interpreting the Curves
 
 Each curve showcases the precision of our testing process at varying confidence levels. A higher precision value indicates a greater level of accuracy in our test results, while the confidence level represents the reliability or certainty associated with those results.
+
+![alt text](https://github.com/lukemitter7/Component-Detection/blob/main/Main/Charts/P%20curves/V5.png?raw=true)
 
 ## BETA Webcam Operation
 

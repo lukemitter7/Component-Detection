@@ -1,0 +1,46 @@
+path: /Users/lukem/OneDrive/Documents/Code/PCB
+names:
+  - '-'
+  - Battery
+  - Button
+  - Buzzer
+  - Capacitor Jumper
+  - Capacitor
+  - Clock
+  - Connector
+  - Diode
+  - Display
+  - EM
+  - Electrolytic Capacitor
+  - Ferrite Bead
+  - Fuse
+  - Heatsink
+  - IC
+  - Inductor
+  - Jumper
+  - Led
+  - PS
+  - Pads
+  - Pins
+  - Potentiometer
+  - Resistor Jumper
+  - Resistor Network
+  - Resistor
+  - SK
+  - Switch
+  - Test Point
+  - Transformer
+  - Transistor
+  - Unknown Unlabeled
+  - Zener Diode
+  - iC
+nc: 34
+roboflow:
+  license: CC BY 4.0
+  project: pcb-phir-se-labeling
+  url: https://universe.roboflow.com/new-workspace-rzrja/pcb-phir-se-labeling/dataset/2
+  version: 2
+  workspace: new-workspace-rzrja
+test: test/images
+train: train/images
+val: valid/images
